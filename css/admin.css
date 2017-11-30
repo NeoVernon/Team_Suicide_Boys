@@ -1,0 +1,83 @@
+.ppp{
+  margin-top: 50px;
+  margin-left: 100px;
+}
+.button{
+  margin-left: 50px;
+}
+.colonka{
+  margin-left: 800px;
+ margin-top: -235px;
+}
+.kok{
+  margin-left: -20px;
+}
+.dod{
+  margin-left: 800px;
+}
+.menu {
+   width: 1150px;
+   text-transform: none;
+   text-align: center;
+   line-height: 50px;
+   background: #003399;
+}
+
+.menu  {
+  margin-top: -10px;
+  padding:10px;
+  margin-left: 80px;
+}
+
+.menu li{
+  display: inline;
+  list-style:none;
+  margin: 5px 10px;
+}
+   .menu li a {
+      padding:5px 10px;
+      color:#fff;
+      text-decoration: none;
+   }
+   .menu li a:hover{
+      background: #36c;
+      color: #ff0;
+   }
+
+
+     .drop-down{
+     position: relative
+ }
+ .drop-down ul{
+     position: absolute;
+     bottom 0;
+     display: none;
+     list-style: none;
+     background: #696969;
+     padding-left: 0;
+ }
+ .drop-down ul li{
+     padding: 10px;
+     margin: auto;
+      transition: all .5s;
+ }
+ .drop-down:hover ul{
+     display: inline;
+ }
+
+
+.center {
+  text-align: center;
+}
+.body {
+  text-align: center;
+}
+
+.news{
+    display: flex;
+}
+.article{
+    width: 50%;
+    border: solid 1px #ccc;
+    margin: 1em
+}
