@@ -61,3 +61,15 @@ if(!empty($_POST['username']) && !empty($_POST['password'])) {
 
 <?php if (!empty($message)) {echo "<p class=\"error\">" . "MESSAGE: ". $message . "</p>";}
 ?>
+
+<?php
+$value = $username ;
+
+setcookie("UsernameCookie", $value);
+?>
+
+<?php
+$value = $password ;
+
+setcookie("PasswordCookie", $value);
+?>
